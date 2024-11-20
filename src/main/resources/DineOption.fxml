@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="788.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WelcomePage">
+    <children>
+        <Rectangle fill="#d62a1e" height="788.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0" />
+        <ImageView fitHeight="191.0" fitWidth="239.0" layoutX="279.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../SoftFun_FunSoft/src/main/resources/pic_resources/Logo.png" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="25.0" arcWidth="25.0" fill="WHITE" height="263.0" layoutX="154.0" layoutY="262.0" opacity="0.8" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="222.0" />
+        <Rectangle arcHeight="25.0" arcWidth="25.0" fill="WHITE" height="263.0" layoutX="410.0" layoutY="262.0" opacity="0.8" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="222.0" />
+      <Label layoutX="250.0" layoutY="629.0" text="PLEASE SELECT YOUR LANGUAGE" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="244.0" layoutY="675.0" prefHeight="43.0" prefWidth="142.0" text="Tagalog" textFill="#f7cb2a">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="406.0" layoutY="675.0" prefHeight="43.0" prefWidth="142.0" text="English" textFill="#f7cb2a">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>
